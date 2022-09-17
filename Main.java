@@ -2,7 +2,7 @@ interface IScanner
 {
     default void foram()
     {
-        System.out.println("FORAM DALSANIYA");
+        System.out.println("AKSH SURANI");
     }
     void get();
    
@@ -11,7 +11,7 @@ interface IPrinter
 {
     default void DEV()
     {
-        System.out.println("DEV DALSANIYA");
+        System.out.println("JYOT DELVADIYA");
     }
     void put();
 }
@@ -19,11 +19,11 @@ class Demo implements IScanner,IPrinter
 {
     void get()
     {
-        System.out.println("hello foram...!!!");
+        System.out.println("hello aksh...!!!");
     }
     void put()
     {
-        System.out.println("hello dev...!!!");
+        System.out.println("hello jyot...!!!");
     }
 }
 public class Main
